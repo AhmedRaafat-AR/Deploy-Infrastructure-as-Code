@@ -9,7 +9,8 @@ Deploy the following resources
 - Route table
 - Export the stack output
 
-# Server Infrastructure as Code
+# Servers Infrastructure as Code
+Deploy the following resources
 - Security groups
 - AutoScaling group
 - IAM Role
