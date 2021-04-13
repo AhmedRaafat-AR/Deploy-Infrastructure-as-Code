@@ -8,3 +8,11 @@ Deploy the following resources
 - Internet gateway and NAT gateway
 - Route table
 - Export the stack output
+
+# Server Infrastructure as Code
+- Security groups
+- AutoScaling group
+- IAM Role
+- Launch configuration
+- Load balancer
+- Export the stack output
