@@ -174,7 +174,5 @@ Outputs:
     WebAppLB: 
       Description: A reference to Load Balancer URL
       Value: !Ref WebAppLB
-      Export:
-        Name: !Sub 
-            - http://${url}
-            - {url : !GetAtt WebAppLB.DNSName}
+      Export: !join [""["http://", !GetAtt WebAppLB.DNSName]]
+        Name: !Sub ${EnvironmentName}-LB-DNSName
